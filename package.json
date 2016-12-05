@@ -1,0 +1,30 @@
+{
+  "name": "the-watcher-launcher",
+  "version": "1.0.0",
+  "description": "Launcher for statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paomoca/the-watcher-launcher.git"
+  },
+  "author": "paomoca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paomoca/the-watcher-launcher/issues"
+  },
+  "homepage": "https://github.com/paomoca/the-watcher-launcher#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment-timezone": "^0.5.10",
+    "mongodb": "^2.2.12",
+    "simple-statistics": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "nodemon": "^1.11.0"
+  }
+}
